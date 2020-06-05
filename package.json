@@ -6,25 +6,28 @@
   "author": "Reinier Guerra <reinier.guerra@salesforce.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@lwc/compiler": "^1.0.0",
-    "@lwc/engine": "^1.0.0",
-    "@storybook/addon-knobs": "^5.1.11",
-    "@storybook/addon-storysource": "^5.1.11",
-    "@storybook/addon-viewport": "^5.2.6",
-    "@storybook/addons": "^5.1.11",
-    "@storybook/html": "^5.1.11",
+    "@babel/core": "^7.10.2",
+    "@lwc/compiler": "^1.6.0",
+    "@lwc/engine": "^1.6.0",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-storysource": "^5.3.19",
+    "@storybook/addon-viewport": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/html": "^5.3.19",
     "@types/node": "^12.0.1",
     "@types/webpack": "^4.4.31",
-    "babel-loader": "^8.0.6",
-    "typescript": "^3.4.5",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "@salesforce-ux/design-system": "2.11.0-beta.1",
+    "@salesforce-ux/design-system": "2.12.1",
     "classnames": "^2.2.6",
-    "lwc-webpack-plugin": "^0.3.0"
+    "lwc-webpack-plugin": "^0.4.0"
   },
   "scripts": {
     "start": "yarn storybook",
