@@ -31,11 +31,11 @@ To deploy base components in your own project, follow these guidelines.
 
 ### Install Dependencies
 
-* [Classnames](https://www.npmjs.com/package/classnames) version 2.2.6
-* [Lightning Design System](https://www.npmjs.com/package/@salesforce-ux/design-system) version 2.11.0-beta.1
-* [LWC Webpack Plugin](https://www.npmjs.com/package/lwc-webpack-plugin) version 0.3.0
-* [LWC Compiler](https://www.npmjs.com/package/@lwc/compiler) version 1.0.0
-* [LWC Engine](https://www.npmjs.com/package/@lwc/engine) version 1.0.0
+* [Classnames](https://www.npmjs.com/package/classnames)
+* [Lightning Design System](https://www.npmjs.com/package/@salesforce-ux/design-system)
+* [LWC Webpack Plugin](https://www.npmjs.com/package/lwc-webpack-plugin)
+* [LWC Compiler](https://www.npmjs.com/package/@lwc/compiler)
+* [LWC Engine](https://www.npmjs.com/package/@lwc/engine)
 
 ### Implement Base Components
 
