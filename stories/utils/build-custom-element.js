@@ -1,9 +1,10 @@
-import { buildCustomElementConstructor } from 'lwc';
+//import { buildCustomElementConstructor } from 'lwc';
 
 export default function buildAndRegisterCustomElement(elementName, elementClass) {
     if (!customElements.get(elementName)) {
-        const customElement = buildCustomElementConstructor(elementClass);
+        // buildCustomElementConstructoris deprecated
+        //const customElement = buildCustomElementConstructor(elementClass);
+        const customElement = elementClass.CustomElementConstructor
         customElements.define(elementName, customElement);
     }
 }
-

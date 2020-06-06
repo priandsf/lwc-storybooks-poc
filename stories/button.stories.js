@@ -1,7 +1,8 @@
+import { LightningElement } from 'lwc';
 import buildAndRegisterCustomElement from './utils/build-custom-element';
-import Button from 'c/button';
+import Button from './cw/button';
 
-buildAndRegisterCustomElement('c-button', Button);
+buildAndRegisterCustomElement('cw-button', Button);
 
 export default {
     title: "Base Components/Button"
@@ -9,26 +10,26 @@ export default {
   
 export const base = () => `
         <div class="slds-p-around_medium">
-            <c-button label="Base Button"></c-button>
+            <cw-button label="Base Button"></cw-button>
         </div>    
     `
 export const neutral = () => `
         <div class="slds-p-around_medium">
-            <c-button variant="neutral" label="Neutral Button"></c-button>
+            <cw-button variant="neutral" label="Neutral Button"></cw-button>
         </div>    
     `
 export const brand =  () => `
         <div class="slds-p-around_medium">
-            <c-button variant="brand" label="Brand Button"></c-button>
+            <cw-button variant="brand" label="Brand Button"></cw-button>
         </div>    
     `
 export const destructive = () => `
         <div class="slds-p-around_medium">
-            <c-button variant="destructive" label="Destructive Button"></c-button>
+            <cw-button variant="destructive" label="Destructive Button"></cw-button>
         </div>    
     `
 export const success = () => `
         <div class="slds-p-around_medium">
-            <c-button variant="success" label="Success Button"></c-button>
+            <cw-button variant="success" label="Success Button"></cw-button>
         </div>    
     `
