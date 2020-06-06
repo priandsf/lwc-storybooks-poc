@@ -1,35 +1,34 @@
-import { storiesOf } from '@storybook/html';
 import buildAndRegisterCustomElement from './utils/build-custom-element';
 import Button from 'c/button';
 
 buildAndRegisterCustomElement('c-button', Button);
 
-storiesOf('Button', module)
-    .add('base', () => `
+export default {
+    title: "Base Components/Button"
+};
+  
+export const base = () => `
         <div class="slds-p-around_medium">
             <c-button label="Base Button"></c-button>
         </div>    
-    `)
-    .add('neutral', () => `
+    `
+export const neutral = () => `
         <div class="slds-p-around_medium">
             <c-button variant="neutral" label="Neutral Button"></c-button>
         </div>    
-    `)
-    .add('brand', () => `
+    `
+export const brand =  () => `
         <div class="slds-p-around_medium">
             <c-button variant="brand" label="Brand Button"></c-button>
         </div>    
-    `)
-    .add('destructive', () => `
+    `
+export const destructive = () => `
         <div class="slds-p-around_medium">
             <c-button variant="destructive" label="Destructive Button"></c-button>
         </div>    
-    `)
-    .add('success', () => `
+    `
+export const success = () => `
         <div class="slds-p-around_medium">
             <c-button variant="success" label="Success Button"></c-button>
         </div>    
-    `);
-
-
-   
+    `
